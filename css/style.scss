@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#slider{
+    width: 1140px;
+    margin: auto;
+    height: 800px;
+    position: relative;
+    overflow:hidden;
+    ul{
+        list-style: none;
+        display: flex !important;
+        transition: all .3s ease-in-out;
+        padding: 0;
+        left: 0;
+        position: relative;
+        img{
+            width: 1140px;
+            height: 600px;
+        
+        }
+
+    }
+    #prevBtn,#nextBtn{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 28px;
+        color: #ffffff;
+        cursor: pointer;
+
+    }
+    #prevBtn{
+        left: 7%;
+
+    }
+    #nextBtn{
+        right:7%;
+    }
+  
+    
+}
